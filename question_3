@@ -1,1 +1,10 @@
-Explain what a branch is, in your own words
+A branch is a point at which the repository has been split in two. Work may 
+continue on the newly created branch whilst leaving the un-branched data 
+unaffected. Once work has been completed on the new branch it may be merged 
+back in to the master branch, at which time all data from the new branch will 
+now reside in the master branch. As such, the new branch can safely be deleted.
+
+In the event that work also continues on the master branch simultaneously with 
+the new branch, a conflict may occur upon merging if the same data has been 
+modified differently within each branch. In this case the user must manually 
+resolve the conflict before a merge can occur.
